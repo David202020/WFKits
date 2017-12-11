@@ -3,5 +3,5 @@ branches:
 - master
 projects:
   WFKits:
-    path: "1"
+    path: "src\WFKits\Main.php"
 ...
