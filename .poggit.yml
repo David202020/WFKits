@@ -3,5 +3,6 @@ branches:
 - master
 projects:
   WFKits:
-    path: "src/WFKits/Main.php"
+    path: ""
+    icon: icon.png
 ...
