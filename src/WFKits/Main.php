@@ -11,7 +11,7 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 class Main extends PluginBase implements Listener{
 public function onLoad(){
-                    $this->getserver->getLogger()->info("Plugin Loading");
+                    $this->getLogger()->info("Plugin Loading");
           }
           public function onEnable(){
 					$this->getServer()->getPluginManager()->registerEvents($this,$this);
