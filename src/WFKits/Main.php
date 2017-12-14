@@ -11,14 +11,14 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 class Main extends PluginBase implements Listener{
 public function onLoad(){
-                    $this->getLogger()->info("Plugin Loading");
+                    $this->getserver->getLogger()->info("Plugin Loading");
           }
           public function onEnable(){
 					$this->getServer()->getPluginManager()->registerEvents($this,$this);
-                    $this->getLogger()->info("Enabled Plugin");
+                    $this->getserver->getLogger()->info("Enabled Plugin");
           }
           public function onDisable(){
-                    $this->getLogger()->info("Plugin Disabled");
+                    $this->getserver->getLogger()->info("Plugin Disabled");
           }
 	  public function onJoin(PlayerJoinEvent $event){
   		    $player = $event->getPlayer();
